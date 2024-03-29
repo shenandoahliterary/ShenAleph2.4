@@ -34,19 +34,19 @@
                 <img style="width:8vw; height:auto; padding-top:4vw; padding-right: 1.25vw" src="<?php echo get_stylesheet_directory_uri(); ?>/Shenandoah-1600.jpg" alt="Shenandoah Logo" itemprop="logo">
             </p>
             <p id="typelogo">
-				<a href="https://shenandoahLiterary.org/731/" style="color: rgb(103,173,168)">Shenandoah</a>
+				<a href="https://shenandoahLiterary.org/" style="color: rgb(103,173,168)">Shenandoah</a>
 			</p>
 		</div>
 
 		<div class="row nav-bar-row" style="margin-top:.25vw; padding-top:.5vw">
 			<div class="col-md-4">
 				<div class="volumeIssueBanner" style="padding-left: 6vw">
-					Volume 73, Number 1 &middot; Fall 2023
+					Volume 73, Number 2 &middot; Spring 2024
 				</div>
 			</div>
 
 			<div class="d-flex flex-nowrap col-md-8 float-md-end nav-bar" role="navigation">
-				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/731/#toc">Current Issue</a>
+				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/732/#toc">Current Issue</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/about/">About</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/issues/">Archive</a>
 				<a class="nav-link" style="padding-right:2.3vw" href="https://shenandoahliterary.org/submissions/">Submit</a>
