@@ -160,7 +160,7 @@ echo "$my_custom_field[0]";
             <div class="row"> <!-- opens row for second category -->
 
 <div class="TOC-column">
-    <h3>Fiction</h3>
+    <h3>Non-Fiction</h3>
 </div>
 </div>
 <div class="row">
@@ -168,7 +168,7 @@ echo "$my_custom_field[0]";
                 <?php
                 remove_all_filters('posts_orderby');
                 $fiction_args = array(
-                    'category_name' => 'fiction',
+                    'category_name' => 'nonfiction',
                     'order' => 'ASC',
                     'meta_key' => 'TOC_order',
                     'orderby' => 'meta_value_num',
@@ -194,7 +194,7 @@ echo "$my_custom_field[0]";
 
                     foreach ($authornames as $author_id=>$author_lastname) {
                             $args = array(
-                        'category_name' => 'fiction',
+                        'category_name' => 'nonfiction',
                         'author' => $author_id,
                         'orderby' => 'date',
                         'order' => 'asc',
