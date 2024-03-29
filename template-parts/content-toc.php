@@ -35,9 +35,7 @@
             <div class="col d-flex justify-content-between genreHeadings sticky-top" style="">
                     <a href="#artist">Featured Artist</a>
                     &nbsp;▴&nbsp;
-                    <a href="#fiction">Short Stories</a>
-                    &nbsp;▴&nbsp;
-                    <a href="#micro">Micro Nonfiction</a>
+                    <a href="#fiction">Fiction</a>
                     &nbsp;▴&nbsp;
                     <a href="#poetry">Poetry</a>
                     &nbsp;▴&nbsp;
