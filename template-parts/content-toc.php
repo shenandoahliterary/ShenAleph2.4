@@ -451,8 +451,8 @@ echo "$my_custom_field[0]";
 	<!--
             <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/721/editors-note/">Editor&rsquo;s Note</a><br /><span class="author_name">Beth Staples</span></p>
     -->
-            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/731/masthead/">Masthead</a></p>
-            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/731/contributors/">List of Contributors</a></p>
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/732/masthead/">Masthead</a></p>
+            <p class="TOC-subheadings"><a href="https://shenandoahliterary.org/732/contributors/">List of Contributors</a></p>
     </div>
 
         <!--  Quote section -->
