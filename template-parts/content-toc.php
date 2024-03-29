@@ -59,7 +59,7 @@
                         <h3>
                             Featured Artist
                         </h3>
-                        <h2>Lorem Ipsum</h2>
+                        <h2>Kristy Hughes</h2>
                     </a>
                 </div>
             </div>
