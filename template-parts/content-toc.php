@@ -53,13 +53,13 @@
     <div class="row">
         <div class="col-12">
             <a id="guest"></a>
-            <!-- start of first category -->
+            <!-- start of featured artist -->
             <div class="row">
                 <div class="TOC-column text-start" style="padding-top: 3em">
                         <h3>
                             Featured Artist
                         </h3>
-                        <h2>Paul Wackers</h2>
+                        <h2>Lorem Ipsum</h2>
                     </a>
                 </div>
             </div>
@@ -242,7 +242,6 @@ echo "$my_custom_field[0]";
 
                 <div class="TOC-column">
                     <h3>Micro Nonfiction</h3>
-                    <h2>guest edited by jj peña</h2>
                 </div>
             </div>
             <div class="row">
