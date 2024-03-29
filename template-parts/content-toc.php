@@ -158,17 +158,14 @@ echo "$my_custom_field[0]";
                         <a id="micro"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-            <!-- opens row for sixth category -->
-
-
-            <!-- close second category row -->
+  
 
 
 
             <div id="poetry"></div>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
 
-            <!-- start of third category -->
+            <!-- start of poetry category -->
             <div class="row">
                     <div class="TOC-column">
                        <h3>Poetry</h3>
@@ -255,7 +252,7 @@ echo "$my_custom_field[0]";
                     ?>
                     </a>
                 </div>
-            <!-- closes third category row -->
+            <!-- closes poetry category row -->
 
 
 
