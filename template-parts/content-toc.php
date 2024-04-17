@@ -160,7 +160,7 @@ echo "$my_custom_field[0]";
             <div class="row"> <!-- opens row for second category -->
 
 <div class="TOC-column">
-    <h3>Non-Fiction</h3>
+    <h3>Nonfiction</h3>
 </div>
 </div>
 <div class="row">
