@@ -917,7 +917,7 @@ text-indent: 0!important;
 }
 
 .workAuthorBio strong {
-	color: #6b9e38 !important;
+	color: #261CD8 !important;
 }
 
 .workAuthorBio a {
@@ -931,7 +931,7 @@ text-indent: 0!important;
 }
 
 .contributor-page-bio strong {
-	color: #6b9e38;
+	color: #261CD8;
 }
 .contributor-page-bio a:link, a:visited {
 	text-decoration: underline;
@@ -1344,17 +1344,17 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	/*color: #df6348;*/
-	color: #6b9e38;
+	color: #261CD8;
 }
 
 a:visited {
 	/*color: #df6348;*/
-	color: #6b9e38;
+	color: #261CD8;
 }
 
 a:hover, a:focus, a:active {
 	/*color: #df6348;*/
-	color: #6b9e38;
+	color: #261CD8;
 
 /*	color: #75aba7;*/
 	/*font-style: italic;*/
@@ -1389,7 +1389,7 @@ a:hover, a:active {
     font-size: 20px;
     font-weight: 550;
     /*color: rgb(223,99,71);*/
-	color: #6b9e38;
+	color: #261CD8;
     justify-content: right;
 	text-transform: uppercase;
 	background-color: white;
