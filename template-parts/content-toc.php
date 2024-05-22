@@ -37,7 +37,7 @@
                     &nbsp;▴&nbsp;
                     <a href="#fiction">Fiction</a>
                     &nbsp;▴&nbsp;
-                    <a href="#nonfiction">Non-Fiction</a>
+                    <a href="#nonfiction">Nonfiction</a>
                     &nbsp;▴&nbsp;
                     <a href="#poetry">Poetry</a>
                     &nbsp;▴&nbsp;
