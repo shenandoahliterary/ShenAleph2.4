@@ -10,9 +10,9 @@
 <section class="container">
     <div class="row cover-row d-flex justify-content-center">
 
-       <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="http://shenandoahliterary.org/732/files/2024/05/cover-opt.png" alt="" itemprop="">
+       <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="http://shenandoahliterary.org/732/files/2024/05/cover.png" alt="" itemprop="">
 
-       <p class="d-flex justify-content-center" ><em></em> detail,&nbsp;<em>lorem ipsum</em>, lorem ipsum, 50” x 60”, 2017, &nbsp;<a href="https://www.kristyhughes.com/" target="_blank">Kristy Hughes</a></p>
+       <p class="d-flex justify-content-center" ><em>Casita</em> (detail), Acrylic, Monotype, Collage, Fiberglass, Polymer, Plaster, PVA Glue, Cardboard, 75”x70”x22,” 2023, &nbsp;<a href="https://www.kristyhughes.com/" target="_blank">Kristy Hughes</a></p>
 
 <!--
         <div class="col-4" style="left-margin: 4vw; z-index: 1">
