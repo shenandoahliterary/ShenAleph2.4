@@ -725,6 +725,13 @@ for copying/pasting poetry text from Word into the <pre></pre> tag of a post. Pr
 	text-indent: 0;
 }
 
+
+.post-39 div.entry-content p {
+line-height: 1.25;
+
+}
+
+
 .force-double-space {
 	margin-top: 1em !important;
 	margin-bottom: 1em !important;
