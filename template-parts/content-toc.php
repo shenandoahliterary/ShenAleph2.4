@@ -10,7 +10,7 @@
 <section class="container">
     <div class="row cover-row d-flex justify-content-center">
 
-       <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="http://shenandoahliterary.org/732/files/2024/05/cover.png" alt="" itemprop="">
+       <img style="width: 90vw; height: auto; padding-right: 1.25vw" draggable="false" src="http://shenandoahliterary.org/732/files/2024/06/3.2coverrevised.png" alt="" itemprop="">
 
        <p class="d-flex justify-content-center" ><em>Casita</em>&nbsp;(detail), Acrylic, Monotype, Collage, Fiberglass, Polymer, Plaster, PVA Glue, Cardboard, 75”x70”x22,” 2023, &nbsp;<a href="https://www.kristyhughes.com/" target="_blank">Kristy Hughes</a></p>
 
