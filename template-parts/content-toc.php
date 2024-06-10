@@ -64,7 +64,87 @@
                 </div>
             </div>
 
+            <div class="row">
 
+                <?php
+                remove_all_filters('posts_orderby');
+                $conversations_args = array(
+                    'category_name' => 'conversations',
+                    'order' => 'ASC',
+                    'meta_key' => 'TOC_order',
+                    'orderby' => 'meta_value_num',
+                    'meta_type' => 'NUMERIC',
+                    'nopaging' => 'true',
+                );
+                $conversations_loop = new WP_Query($conversations_args);
+                $authornames = array();
+
+                while ($conversations_loop->have_posts()) : $conversations_loop->the_post();
+                    $this_author= get_post_meta($post->ID, 'author_lastname', true);
+                    $this_author_id =get_the_author_meta('ID');
+                    $authornames[$this_author_id] = $this_author;
+
+                    //print statement of title and author just below worked but put each work and author separately
+
+                endwhile;
+
+                //group posts by author
+
+                foreach ($authornames as $author_id=>$author_lastname) {
+                    $args = array(
+                        'category_name' => 'conversations',
+                        'author' => $author_id,
+                        'orderby' => 'date',
+                        'order' => 'asc',
+                        'nopaging' => 'true'
+                    );
+
+                    //start WP loop
+                    $conversations_loop_single = new WP_Query($args);
+
+                    $i = 0;
+
+                    //open paragraph for title(s)/author
+                    echo "<p>";
+                    while ($conversations_loop_single->have_posts()) :
+                        $conversations_loop_single->the_post();
+                        //for each author, print title,  author
+
+                        ?>
+                        <a href="<?php the_permalink(); ?>">
+
+                            <?php the_title(); ?>
+                        </a><br/>
+                        <?php
+                        //check for author's note
+
+                        $custom_fields = get_post_custom();
+                        $has_author_note = $custom_fields['has_author_note'];
+
+                        $i++;
+
+                    endwhile;
+                    $custom_fields_test = get_post_custom();
+                    $has_author_note_test = $custom_fields_test['has_author_note'];
+
+                    if (! empty($has_author_note)) {
+                        $author_note_url = site_url();
+
+                        //echo "test: $has_author_note_test[0]";
+                        echo <<<URLLINK
+            
+                                <a href="$author_note_url/$has_author_note[0]/">Author's Note</a><br />
+                                URLLINK;
+                    }
+                    ?>
+
+                    <span class="author_name"><?php the_author(); ?> </span>
+                    <?php
+                    wp_reset_postdata();
+                }
+                ?>
+            </div>
+            <!-- close first category -->
             <!-- close first category -->
 
 
