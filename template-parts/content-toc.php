@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="TOC-column text-start" style="padding-top: 3em">
                         <h3>
-                            Featured Artist
+                            Featured Artists
                         </h3>
                         <h2>Kristy Hughes</h2>
                     </a>
