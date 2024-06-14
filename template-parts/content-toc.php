@@ -245,7 +245,7 @@ echo "$my_custom_field[0]";
                             </div>
                         <!-- close second category row -->
 
-                        <a id="micro"></a>
+                        <a id="nonfiction"></a>
             <span class="text-center p-section-break">▴&nbsp;▴&nbsp;▴</span>
             <div class="row"> <!-- opens row for second category -->
 
