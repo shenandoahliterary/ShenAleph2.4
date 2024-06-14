@@ -673,51 +673,48 @@ echo "$my_custom_field[0]";
 	</section>
 
 	<!--  Features section -->
+      
     <section class="container-fluid TOC-features">
-		<div class="card-group">
-			<?php
-			$args = array(
-			//    'category_name'         => 'feature',
-			//	'category_name'         => "What's in My Desk",
-                'tag'         => "peakFeature",
+	<div class="card-group">
+		<?php
+		$args = array(
+			'tag' => '732',
+		);
+		$category_posts = new WP_Query($args);
 
-			);
-			$category_posts = new WP_Query($args);
-
-			if ($category_posts->have_posts()) :
-					 while($category_posts->have_posts()) :
-							$category_posts->the_post();
-			?>
-			<div class="card"><a href="<?php echo get_permalink(); ?>">
-		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
-		    <div class="card-body">
-					<h5 class="card-title"><?php
-					$categories = get_the_category();
-
-					if ( ! empty( $categories ) ) {
-					    echo esc_html( $categories[0]->name );
-					}
-
-
-					 	 ?></h5>
-				<p class="card-text"><?php	the_excerpt() ?></p>
-			</div>
-		</a>
+		if ($category_posts->have_posts()) :
+			while($category_posts->have_posts()) :
+				$category_posts->the_post();
+		?>
+		<div class="card">
+			<a href="<?php echo get_permalink(); ?>">
+				<?php the_post_thumbnail('full', array('class'=>'card-img img-fluid')); ?>
+				<div class="card-body">
+					<h5 class="card-title">
+						<?php
+						$categories = get_the_category();
+						if (!empty($categories)) {
+							echo esc_html($categories[0]->name);
+						}
+						?>
+					</h5>
+					<p class="card-text"><?php the_excerpt(); ?></p>
+				</div>
+			</a>
 		</div>
-
-			<?php
-					 endwhile;
-				else:
-			?>
-
-					 Oops, there are no features.
-
-			<?php
-				endif;
-				wp_reset_postdata();
-			?>
-
+		<?php
+			endwhile;
+		else:
+		?>
+			<p>Oops, there are no features.</p>
+		<?php
+		endif;
+		wp_reset_postdata();
+		?>
+	</div>
 </section>
+
+            -->
+
 	</div>
 </div>
